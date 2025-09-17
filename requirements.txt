@@ -1,8 +1,7 @@
-streamlit==1.36.0
-numpy==1.26.4
-pandas==2.1.4
-matplotlib==3.8.4
-scipy==1.11.4
-scikit-learn==1.4.2
-statsmodels==0.14.1
-
+streamlit==1.49.1         # Streamlit supports Python 3.13 (official docs)
+numpy>=2.1,<3             # 3.13 supported in 2.1+; 2.2.x is great
+pandas==2.2.3             # first pandas with 3.13 wheels
+matplotlib==3.10.6        # supports 3.13 (incl. free-threaded)
+scipy>=1.14.1,<1.17       # 1.14.1 added 3.13 wheels
+scikit-learn==1.7.0       # supports Python 3.10–3.13
+statsmodels==0.15.0       # supports Python 3.9–3.13
